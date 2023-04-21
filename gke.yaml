@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: gcp-devops-gke
-          image: gcr.io/kkloud-gcp-training/gcpdevops
+          image: gcr.io/kkloud-gcp-training/test-gcpdevops:latest
           ports:
             - containerPort: 4000
           env:
