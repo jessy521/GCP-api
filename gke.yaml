@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: gcp-devops-gke
-          image: gcr.io/decisive-coder-384407/github.com/jessy521/api
+          image: gcr.io/decisive-coder-384407/gcpdevops:latest
           ports:
             - containerPort: 4000
           env:
